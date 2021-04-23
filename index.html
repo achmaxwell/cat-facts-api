@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Cat Facts, Man</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<!--header-->
+
+<!--image-->
+<div class="container">
+  <div class="catCard">
+    <h1>Cat Facts</h1>
+    <p>(Or other animals... I won't tell the cat lovers)</p>
+    
+    <img src="assets/cat_facts_logo.png" id="cat_logo_image">
+    <div class="container">
+    <form>
+      <div class="form-group">
+        <label for="animal_type" id="headerText">Pick Your Animal</label>
+        <input type="text" class="form-control" value="cat" id="animal_type" aria-describedby="para">
+        <small id="para" class="form-text text-muted">Options: Cat, Dog, Horse & Snail</small>
+      </div><br>
+      <div class="form-group">
+        <label for="num_facts" id="headerText">How Many Facts Do You Want?</label>
+        <input type="number" class="form-control" id="num_facts">
+        <small id="para" class="form-text text-muted">MAX: 20</small>
+      </div>
+    </form>
+  </div>
+    <div class="container"><br>
+      <button type="button" class="btn btn-secondary generate_btn">Generate</button>
+  </div>
+  <div class="list-group mx-3 my-3 facts"><p>Your facts will appear here!</p></div>
+</div>
+  </div>
+      <!--js-->
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+</body>
+</html>

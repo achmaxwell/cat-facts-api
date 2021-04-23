@@ -1,0 +1,58 @@
+body {
+    padding: 20px;
+    background-color: #fae9cd;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+h1{
+    font-family: 'Righteous', cursive;
+    color:darkslategray;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    color: dimgray;
+    font-size: 12pt;
+}
+
+.btn{
+    border: hidden;
+    border-radius: 10px;
+    background-color:darkslategray;
+    font-family: 'Righteous', cursive;
+}
+
+.catCard{
+    width: 50%;
+    margin: auto;
+    padding: 40px;
+    border: hidden;
+    border-radius: 50px;
+    background-color: white;
+    align-content: center;
+    text-align: center;
+}
+
+#cat_logo_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 200px;
+    height: auto;
+}
+
+.cat_btn {
+    margin-top: 30px;
+}
+
+#headerText{
+    font-family: 'Righteous', cursive;
+    color:darkslategray;
+}
+
+#para{
+    font-family: 'Roboto', sans-serif;
+    color: dimgray;
+}
